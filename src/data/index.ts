@@ -1,5 +1,4 @@
 import p1 from '@/public/p1.png'
-import p2 from '@/public/p2.png'
 import p3 from '@/public/p3.png'
 import exp1 from '@/public/exp1.svg'
 import exp2 from '@/public/exp2.svg'
@@ -24,27 +23,19 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: p3,
+      title: "Floral E-commerce Web App",
+      des: "An E-commerce app with a payments and credits system using the power of React.",
+         img: p1,
       iconLists: [re,redux,router ,tail],
       href:"/Lilylan.com",
       link: "https://quiet-peony-8add6d.netlify.app/",
     },
+    
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: p2,
-      iconLists: [re,router,css],
-      href:"/gomycode.com",
-      link: "https://cerulean-moonbeam-a15caa.netlify.app/",
-    },
-    {
-      id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: p1,
+      title: "Quiz Game website",
+      des: "Interactive quiz app built with HTML, CSS, and JavaScript, offering diverse question formats and engaging conten.",
+      img: p3,
       iconLists:[html,css,js],
       href:"/QuizGame.com",
       link: "https://reliable-tiramisu-56585f.netlify.app/",
